@@ -15,6 +15,6 @@ app.set('view engine', 'hbs')
 app.use('/', require('./routes/index'))
 
 // servidor
-app.listen(process.env.PORT, () => {
+app.listen(3333, () => {
     console.log("Servidor activo");
   });
