@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium&family=Poppins:wght@200&display=swap');
-img{
+.album{
     width: 30vh;
     height: 30vh;
 }
@@ -40,4 +40,12 @@ section{
     flex-direction: column;
     padding: 0 10%;
     text-align: center;
+}
+.landscape{
+    max-width: 100%;
+    height: auto;
+    padding: 2% 0
+}
+.gallery{
+    padding: 50px 10%;
 }
