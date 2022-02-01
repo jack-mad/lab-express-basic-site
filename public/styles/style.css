@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&family=Poppins:wght@200&display=swap');
+img{
+    width: 30vh;
+    height: 30vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 50px;
+}
+h2{
+    
+    color: white;
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+
+h5, p{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: tomato;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10%;
+    text-align: center;
+}
